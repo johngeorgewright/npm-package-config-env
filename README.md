@@ -1,4 +1,6 @@
 # npm-package-config-env
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/johngeorgewright/npm-package-config-env.svg)](https://greenkeeper.io/)
 Imports environment variables in to NPM's package config
 
 ## Installation
