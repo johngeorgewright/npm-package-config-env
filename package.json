@@ -1,0 +1,25 @@
+{
+  "name": "npm-package-config-env",
+  "version": "0.0.0",
+  "description": "Imports environment variables in to NPM's package config",
+  "main": "index.js",
+  "bin": {
+    "ipce": "./ipce.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johngeorgewright/npm-package-config-env.git"
+  },
+  "author": "John Wright <johngeorge.wright@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johngeorgewright/npm-package-config-env/issues"
+  },
+  "homepage": "https://github.com/johngeorgewright/npm-package-config-env#readme",
+  "devDependencies": {
+    "commander": "^2.11.0"
+  }
+}
