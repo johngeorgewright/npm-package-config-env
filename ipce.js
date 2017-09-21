@@ -2,7 +2,6 @@ const program = require('commander')
 const {version} = require('./package.json')
 
 program
-  .name(name)
   .version(version)
   .arguments('<name>')
   .option('-p, --prefix <prefix>', 'The enviroment variable prefix', 'npm_package_config_')
