@@ -1,6 +1,6 @@
 {
   "name": "npm-package-config-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Imports environment variables in to NPM's package config",
   "main": "index.js",
   "bin": {
