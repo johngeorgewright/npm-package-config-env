@@ -19,7 +19,8 @@
     "url": "https://github.com/johngeorgewright/npm-package-config-env/issues"
   },
   "homepage": "https://github.com/johngeorgewright/npm-package-config-env#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "commander": "^2.11.0"
   }
 }
