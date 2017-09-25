@@ -14,7 +14,8 @@ Usage: ipce [options] <name>
 Options:
 
   -V, --version          output the version number
-  -p, --prefix <prefix>  The enviroment variable prefix - DEFAULT npm_package_config_
+  -s, --save             Save the config directly to your global NPM config
+  -p, --prefix <prefix>  The enviroment variable prefix
   -h, --help             output usage information
 ```
 
@@ -39,4 +40,15 @@ $> cat .npmrc
 
 my-awesome-package:mung=face
 my-awesome-package:foo=bar
+```
+
+Save the config in to you global settings:
+
+```
+$> ipce -s my-awesome-package
+$> npm config list
+
+; userconfig /Users/johnwright/.npmrc
+my-awesome-module:mung = "face"
+my-awesome-package:foo = "bar"
 ```
