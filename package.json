@@ -19,10 +19,9 @@
     "url": "https://github.com/johngeorgewright/npm-package-config-env/issues"
   },
   "homepage": "https://github.com/johngeorgewright/npm-package-config-env#readme",
-  "devDependencies": {
-    "app-root-path": "^2.0.1"
-  },
+  "devDependencies": {},
   "dependencies": {
+    "app-root-path": "^2.0.1",
     "commander": "^2.11.0"
   }
 }
